@@ -1,0 +1,12 @@
+package data;
+
+public class TextBloc {
+	private String str;
+	private boolean isNav;
+	private boolean isMod;
+	
+	public TextBloc() {
+		
+	}
+	
+}
