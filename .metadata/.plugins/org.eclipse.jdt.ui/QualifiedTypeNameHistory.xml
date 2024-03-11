@@ -20,4 +20,5 @@
     <fullyQualifiedTypeName name="data.peripheral.Peripheral"/>
     <fullyQualifiedTypeName name="data.peripheral.Keyboard"/>
     <fullyQualifiedTypeName name="data.peripheral.EcranPilote"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

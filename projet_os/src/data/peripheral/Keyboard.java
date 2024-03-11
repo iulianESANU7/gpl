@@ -22,19 +22,9 @@ public class Keyboard extends Peripheral {
         GlobalScreen.addNativeKeyListener(new MyKeyListener());
     }
 
-    @Override
     public String read() {
         return Integer.toString(keyCode);
     }
-
-    /*
-     * inutile dans ce cas mais indispensable a cause de l'interface Pilote.
-     */
-	@Override
-	public String write(String str) {
-		
-		return null;
-	}
 
 	/*
 	 * C'est cette classe qui recupere les input du clavier, a voir si on ne peut 

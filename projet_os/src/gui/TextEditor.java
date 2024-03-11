@@ -30,7 +30,10 @@ public class TextEditor extends JFrame{
 
 	public void append(String content) {
 		textArea.append(content);
-		
+	}
+	
+	public Cmd getTextArea() {
+		return this.textArea;
 	}
 }
 

@@ -17,15 +17,9 @@ public class Mouse extends Peripheral {
 	 * si on fait quelque chose de full keyboard ou non.
 	 */
 	
-	@Override
 	public String read() {
 		String coord = new String(this.x + "," + this.y);
 		return coord;
-	}
-
-	@Override
-	public String write(String a) {
-		return null;
 	}
 	
 }

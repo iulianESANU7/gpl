@@ -1,8 +1,8 @@
 package data.peripheral;
 
-public abstract class Peripheral implements Pilote {
-	int id;
-	String name;
+public abstract class Peripheral {
+	public int id;
+	public String name;
 	
 	public int getId() {
 		return id;
