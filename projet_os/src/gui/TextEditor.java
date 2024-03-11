@@ -8,10 +8,10 @@ import javax.swing.ScrollPaneConstants;
 import javax.swing.border.EmptyBorder;
 
 @SuppressWarnings("serial")
-public class TextEditor extends JFrame {
+public class TextEditor extends JFrame{
 	
 	JScrollPane scrollPane;
-	Cmd textArea;
+	public Cmd textArea;
 	
 	public TextEditor() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -26,7 +26,11 @@ public class TextEditor extends JFrame {
 	
 		add(scrollPane, BorderLayout.CENTER);
 		setVisible(true);
-	
+	}
+
+	public void append(String content) {
+		textArea.append(content);
+		
 	}
 }
 

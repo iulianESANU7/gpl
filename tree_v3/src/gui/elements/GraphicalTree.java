@@ -9,10 +9,10 @@ import javax.swing.JPanel;
 
 import org.jfree.chart.ChartPanel;
 
-import process.management.TreeBuilder;
 import data.Tree;
 import gui.instrument.ChartManager;
 import gui.instrument.InstrumentVisitor;
+import process.management.TreeBuilder;
 
 /**
  * The graphical tree main frame. It contains a {@link TreePanel} that manages the graphical tree printing.

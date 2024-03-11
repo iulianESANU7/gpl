@@ -1,13 +1,15 @@
 package noyau;
 
-import data.Processuses;
+import data.peripheral.Keyboard;
+import data.peripheral.Peripheral;
+import process.EcranMgmt;
 
 public class Noyau {
-	private Processuses taskManager; // a voir si on
-											 // on devrait pas plutot faire une
-											 // class directement.
-	
-	public Noyau() {
-		this.taskManager = Processuses.getInstance();
+
+	public static void main(String[] args) {
+		
+		Peripheral keyboard = new Keyboard(1, "logi-toc");
+		Peripheral ecran = new EcranMgmt(2, "fi lips");
+		ecran.write("blabla");
 	}
 }

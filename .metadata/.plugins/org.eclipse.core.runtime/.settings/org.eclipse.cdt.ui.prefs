@@ -82,3 +82,6 @@ semanticHighlighting.typedef.strikethrough=false
 semanticHighlighting.typedef.underline=false
 sourceHoverBackgroundColor=255,0,255
 sourceHoverBackgroundColor.SystemDefault=false
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

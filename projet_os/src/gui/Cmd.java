@@ -17,16 +17,9 @@ public class Cmd extends JTextArea{
 		setForeground(Color.WHITE);
 		setBorder(BorderFactory.createEmptyBorder());
 		setCaret(new CustomCaret());
+		setEditable(false);
 	}
-	
 }
-
-
-
-
-
-
-
 
 
 

@@ -15,4 +15,9 @@
     <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.github.kwhat.jnativehook.NativeHookException"/>
+    <fullyQualifiedTypeName name="com.github.kwhat.jnativehook.keyboard.NativeKeyEvent"/>
+    <fullyQualifiedTypeName name="data.peripheral.Peripheral"/>
+    <fullyQualifiedTypeName name="data.peripheral.Keyboard"/>
+    <fullyQualifiedTypeName name="data.peripheral.EcranPilote"/>
 </qualifiedTypeNameHistroy>
