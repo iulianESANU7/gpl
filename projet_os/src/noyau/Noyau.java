@@ -12,11 +12,12 @@ public class Noyau {
 	public static void main(String[] args) {
 		
 		Peripheral keyboard = new Keyboard(1, "logi-toc");
-		Screen ecran = new EcranMgmt(2, "fi lips");
-		DiskPilote disk = new DiskPilote(3, "C"); 
-		ecran.write(disk.getPath());
-		ecran.write(disk.read());
-		disk.write(" Test ");
-		ecran.write(disk.read());
+		Screen screen = new EcranMgmt(2, "fi lips");
+		
+		DiskPilote disk = new DiskPilote(3, "Test");
+		screen.write(disk.read());
+		
+		DiskPilote disk2 = new DiskPilote(4, disk.read() + "alors");
+		screen.write(disk2.read());
 	}
 }

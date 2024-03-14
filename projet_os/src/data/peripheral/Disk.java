@@ -1,18 +1,25 @@
 package data.peripheral;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class Disk extends Peripheral {
+	private File dir;
 	
 	public Disk(int id, String name) {
 		this.id = id;
 		this.name = name;
+		this.dir = new File(this.name);
 		
-		// creation dossier si name inexistant.
+		if (!this.dir.exists()) {
+			try {
+				this.dir.mkdir();
+			} catch(Exception e) {
+				System.out.println("Erreur creation dossier : " + e.getMessage());
+			}
+		}
+	}
+
+	public String getPath() {
+		return this.dir.getPath();
 	}
 }

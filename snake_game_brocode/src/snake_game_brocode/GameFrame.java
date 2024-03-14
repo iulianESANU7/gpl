@@ -2,6 +2,7 @@ package snake_game_brocode;
 
 import javax.swing.JFrame;
 
+@SuppressWarnings("serial")
 public class GameFrame extends JFrame {
 
 	GameFrame() {
